@@ -29,7 +29,7 @@ entire gene will fail to be expressed. We can identify the gene we wish to disab
 ```
 [id 1] TATAAA [id 2] --- (any junk) --- AUG (protein encoded as DNA) --- UAA
 ```
-Therefore, if a protein binds to id 1 or id 2, the gene will be expressed. The same is true if a protein binds to both. This makes a NOR gate for gene expression: `not (a or b)`.
+Therefore, if a protein binds to id 1 or id 2, the gene will NOT be expressed. The same is true if a protein binds to both. This makes a NOR gate for gene expression: `not (a or b)`.
 
 NOR gates form singleton universal gate sets, and so we can build arbitrary circuits with them.
 
